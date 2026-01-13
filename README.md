@@ -48,7 +48,7 @@ A simple and user-friendly **Contact Book** web application built using **HTML, 
 1. Download or clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/contact-book.git
+   git clone https://github.com/bondhalaanitha/Contact-Book.git
    ```
 2. Open the project folder
 3. Open `index.html` in any modern web browser
