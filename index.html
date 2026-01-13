@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📒 Contact Book</h1>
+
+<div class="container">
+
+    <!-- LEFT COLUMN -->
+    <div class="column">
+        <h2>Add Contact</h2>
+        <input id="name" placeholder="Name">
+        <input id="phone" placeholder="Phone">
+        <input id="email" placeholder="Email">
+        <input type="file" id="photo" accept="image/*">
+        <button onclick="addContact()">Add</button>
+    </div>
+
+    <!-- MIDDLE COLUMN -->
+    <div class="column">
+        <h2>Recent Calls</h2>
+        <div id="recentCalls"></div>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="column">
+        <h2>Search</h2>
+        <input placeholder="Search by phone" onkeyup="searchContact(this.value)">
+        <div id="contactList"></div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

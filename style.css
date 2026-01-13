@@ -1,0 +1,145 @@
+/* 🌸 Lavender Gingham Theme */
+
+body {
+    margin: 0;
+    font-family: "Poppins", Arial, sans-serif;
+    background-color: #f6f0ff;
+    background-image:
+        linear-gradient(45deg, rgba(255,255,255,0.5) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(255,255,255,0.5) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, rgba(255,255,255,0.5) 75%),
+        linear-gradient(-45deg, transparent 75%, rgba(255,255,255,0.5) 75%);
+    background-size: 40px 40px;
+    background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
+    text-align: center;
+    color: #5a4b81;
+}
+
+/* Main Title */
+h1 {
+    margin: 20px 0;
+    color: #7b5cc4;
+    font-weight: 700;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* Columns */
+.column {
+    background: #ffffffdd;
+    width: 30%;
+    padding: 18px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(123, 92, 196, 0.25);
+    border: 2px solid #e5d9ff;
+}
+
+/* Column Titles */
+.column h2 {
+    color: #8f6fe4;
+    margin-bottom: 10px;
+}
+
+/* Inputs */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 12px;
+    border: 2px solid #d8c9ff;
+    outline: none;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #a98bff;
+}
+
+/* Buttons */
+button {
+    background: linear-gradient(135deg, #c8b6ff, #b8a0ff);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 95%;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #b8a0ff, #a98bff);
+}
+
+/* Contact Card */
+.contact {
+    background: #f8f4ff;
+    border-radius: 16px;
+    padding: 12px;
+    margin: 12px 0;
+    box-shadow: 0 6px 15px rgba(123, 92, 196, 0.2);
+    border: 1.5px solid #e6dbff;
+}
+
+/* Contact Image */
+.contact img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #c8b6ff;
+    object-fit: cover;
+}
+
+/* Name */
+.contact h4 {
+    margin: 8px 0;
+    color: #6b52b8;
+}
+
+/* Links */
+.contact a {
+    display: block;
+    text-decoration: none;
+    color: #7b5cc4;
+    font-weight: 500;
+    margin: 4px 0;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Delete */
+.delete {
+    display: inline-block;
+    margin-top: 6px;
+    color: #ff7eb6;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.delete:hover {
+    color: #ff4f9a;
+}
+
+/* Recent Calls */
+#recentCalls p {
+    background: #efe7ff;
+    padding: 8px;
+    border-radius: 12px;
+    margin: 6px 0;
+    color: #6b52b8;
+}
+
+/* Scroll for long lists */
+.column {
+    max-height: 75vh;
+    overflow-y: auto;
+}
